@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: #2097cab7;
+   
+}
+.left h1{
+
+    color: white;
+}
+.header
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.705);
+    height: 100px;
+}
+.header nav a{
+    margin-right: 25px;
+    text-decoration: none;
+    color: rgba(255, 68, 0, 0.616);
+    font-size: 22px;
+    font-weight: bold;
+}
+button{
+    background-color:#2098ca;
+    border: none;
+    outline:none;
+    padding: 20px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+
+}
+.section{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    height: 350px;
+    background-color:rgba(128, 128, 128, 0.61);
+    width:350px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+form h1{
+   position: absolute;
+   top:0
+}
+form label{
+    font-weight: bold;
+}
+form input{
+    padding: 10px;
+    width: 250px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}
+@media(max-width:763px){
+    .header nav a{
+        font-size: 18px;
+        margin-right: 2px;
+    }
+}
